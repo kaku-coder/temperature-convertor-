@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenor{
+  border: 1px solid white;
+  /* padding: 20px; */
+  border-radius: 10px;
+  text-align: center;
+}
+.contenor h1{
+  width: 100%;
+  background-color: green;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+.all-inputbox{
+  padding: 20px;
+}
+.celsius{
+  font-size: 20px;
+}
+.all-inputbox input{
+  width: 100%;
+  padding: 10px;
+    margin-top: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+.kelvin P{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.kelvin input{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+.farenhite p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.farenhite input{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
